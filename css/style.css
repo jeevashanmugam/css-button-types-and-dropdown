@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_container {
+    padding: 20px;
+}
+
+.main_container h1 {
+    background-color: pink;
+    margin: 0 auto;
+    border: 2px solid;
+    width: max-content;
+    padding: 10px 15px;
+    box-shadow: 5px 5px 15px;
+    border-radius: 15px;
+}
+
+.container_1,
+.container_2 {
+    margin-top: 20px;
+    display: flex;
+    width: 161px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.btn_primary {
+    background-color: #6060f2;
+    padding: 10px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn_secondary {
+    color: white;
+    background-color: #8d8d8f;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn_primary:hover,
+.btn_warning:hover,
+.btn_secondary:hover,
+.btn_danger:hover,
+.btn_success:hover,
+.btn_info:hover {
+    background-color: #aaaae2;
+    color: black;
+}
+
+.btn_danger {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn_warning {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn_success {
+    background-color: #4aeb4a;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn_info {
+    color: white;
+    background-color: #7b7bff;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+.container_3 {
+    margin-top: 20px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+    width: 109px;
+}
+
+.container_3_sub {
+    margin-left: 10px;
+    margin-top: 20px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+    width: 82px;
+}
+
+.main_container_3 {
+    display: flex;
+}
+
+.container_3_sub1 {
+    margin-left: 10px;
+    margin-top: 20px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+    width: 27px;
+}
+
+.container_4 {
+    margin-top: 20px;
+    display: flex;
+    width: 201px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.btn_primy {
+    display: inline-block;
+    text-decoration: none;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+.active {
+    background-color: green;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+.container_5 {
+    margin-top: 20px;
+    display: flex;
+    width: 175px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+
+.container_5 a {
+    padding: 10px;
+    border-color: blue;
+    color: blue;
+    border: 1px solid;
+    text-decoration: none;
+}
+
+.container_6 {
+    margin-top: 20px;
+    width: 163px;
+    border-radius: 5px;
+    display: flex;
+    overflow: hidden;
+}
+
+.container_6 i {
+    margin-left: 10px;
+}
+
+.drop_hide {
+    width: 100px;
+    background-color: #6060f2;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.drop_hide a {
+    color: white;
+    display: inline-block;
+    padding: 10px 0px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    width: 100px;
+    color: white;
+    display: inline-block;
+    padding: 10px 0px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    width: 100px;
+}
+
+.drop_hide a:hover {
+    background-color: #aaaae2;
+}
+
+.btn_primary:hover .drop_hide {
+    display: block;
+    position: absolute;
+}
+
+.container_7 {
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.container_7 ul {
+    list-style: none;
+    border-radius: 7px;
+    overflow: hidden;
+    width: 130px;
+}
+
+.container_7 ul li a {
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+}
+
+.drop_1 {
+    margin-left: 130px;
+    position: relative;
+    top: 508px;
+    display: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.drop_1 a {
+    text-decoration: none;
+    background-color: #6060f2;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+	border-bottom: 1px solid black;	
+}
+
+.drop_1 a:hover {
+    background-color: #aaaae2;
+}
+
+.hover_drop:hover .drop_1 {
+    display: block;
+    position: absolute;
+}
+
+.drop_2 {
+    margin-left: 130px;
+    position: relative;
+    top: 623px;
+    display: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.drop_2 a {
+    text-decoration: none;
+    background-color: #6060f2;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+	border-bottom: 1px solid black;	
+}
+
+.drop_2 a:hover {
+    background-color: #aaaae2;
+}
+
+.hover_drop:hover .drop_2 {
+    display: block;
+    position: absolute;
+}
+
+.drop_3 {
+    margin-left: 130px;
+    position: relative;
+    top: 662px;
+    display: none;
+    border-radius: 10px;
+    overflow: hidden;
+	border-bottom: 1px solid black;	
+}
+
+.drop_3 a {
+    text-decoration: none;
+    background-color: #6060f2;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+	border-bottom: 1px solid black;	
+}
+
+.drop_3 a:hover {
+    background-color: #aaaae2;
+}
+
+.hover_drop:hover .drop_3 {
+    display: block;
+    position: absolute;
+}
+
+.drop_4 {
+    margin-left: 130px;
+    position: relative;
+    top: 700px;
+    display: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.drop_4 a {
+    text-decoration: none;
+    background-color: #6060f2;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+	border-bottom: 1px solid black;	
+}
+
+.drop_4 a:hover {
+    background-color: #aaaae2;
+}
+
+.hover_drop:hover .drop_4 {
+    display: block;
+    position: absolute;
+}
